@@ -2,7 +2,8 @@
 
 An interactive console-based Metro Navigation App that helps users find the shortest, fastest, and most efficient routes between metro stations — built entirely using Java, Graphs, and Heaps.
 
-🌟 Key Features :
+## 🌟 Key Features :
+
 🔍 1. Smart Route Finder
 Calculate the shortest distance and minimum travel time between any two metro stations using Dijkstra’s algorithm, BFS, and DFS.
 Real-time pathfinding considering station interchanges and corridor connections.
@@ -22,7 +23,8 @@ Multiple input options: station name, code, or serial number.
 
 Clear menu-driven interaction with real-time feedback on route, distance, and estimated travel time.
 
-🧠 Core Concepts & Data Structures :
+## 🧠 Core Concepts & Data Structures :
+
 🔹 Graph
 Vertices represent metro stations, including name and corridor identifier (e.g., Rajiv Chowk~BY).
 Edges represent bi-directional connections between stations with distances.
@@ -33,18 +35,22 @@ Custom-built Heap class to efficiently implement Dijkstra’s algorithm for shor
 🔹 DFS & BFS
 Used to traverse the graph and find all possible paths or validate connectivity between stations.
 
-🧾 Project Structure
-File	Description
+## 🧾 Project Structure:
+
+## File	Description:
+
 Graph_metro.java -Contains all graph logic, pathfinding algorithms, and the console menu UI.
 Heap.java -	Implements a generic heap (priority queue) used for Dijkstra’s algorithm.
 
-🔧 Technologies Used
+## 🔧 Technologies Used:
+
 Java – Core logic, data structures, and console interface.
 Custom Graph Implementation – Used to model the metro network.
 Custom Heap (Priority Queue) – For efficient shortest path lookup.
 OOP & Collections – Utilizes HashMap, ArrayList, LinkedList for optimized operations.
 
-🧪 Sample Functionalities
+## 🧪 Sample Functionalities:
+
 ✅ Display all stations with their codes
 ✅ Print the entire metro map
 ✅ Calculate shortest distance or fastest route
