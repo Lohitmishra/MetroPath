@@ -35,11 +35,9 @@ Custom-built Heap class to efficiently implement Dijkstra’s algorithm for shor
 🔹 DFS & BFS
 Used to traverse the graph and find all possible paths or validate connectivity between stations.
 
-## 🧾 Project Structure:
-
 ## File	Description:
 
-Graph_metro.java -Contains all graph logic, pathfinding algorithms, and the console menu UI.
+Graph_metro.java - Contains all graph logic, pathfinding algorithms, and the console menu UI.
 Heap.java -	Implements a generic heap (priority queue) used for Dijkstra’s algorithm.
 
 ## 🔧 Technologies Used:
