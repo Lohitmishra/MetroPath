@@ -57,7 +57,8 @@ OOP & Collections – Utilizes HashMap, ArrayList, LinkedList for optimized oper
 ✅ Display number of interchanges
 ✅ Support inputs by name, serial number, or code
 
-📚 How to Run
+## 📚 How to Run:
+
 Clone the repository or download the source code.
 Compile both Graph_metro.java and Heap.java.
 Run the Graph_metro main method from your IDE or terminal.
